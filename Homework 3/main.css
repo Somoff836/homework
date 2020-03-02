@@ -1,0 +1,29 @@
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+.element{
+	width: 350px;
+	height: 220px;
+	padding: 15px 10px 20px;
+	margin-bottom: 30px;
+	border: 2px dashed red;
+	background: green;
+}
+#text{
+	text-align: justify;
+	overflow: hidden;
+  max-width: 600px;
+  margin: 0 auto;
+  }
+.img-float {
+  float: left;
+  width: 200px;
+  margin:0 20px 20px 0;
+  }
+  .img-box {
+float: right;
+width: 150px;
+margin: 20px 0 20px 20px;
+  }
